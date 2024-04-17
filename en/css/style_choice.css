@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  nav{
+    padding: 5px calc((100vw - 1300px) / 2);
+    background: #e7cc01;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo{
+    padding: 0 3rem;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .logo_item{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .logo_item p{
+    margin-left: 10px;
+  }
+  .nav-items{
+    display: flex;
+    align-items: center;
+  }
+  .nav-items a{
+    color: black;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    font-size: 20px;
+  }
+  .nav-items a:hover {
+    color: #fff;
+  }
+  #theme{
+    width: 30px;
+    cursor: pointer;
+  }
+  h1{
+    font-size: 100px;
+    margin-bottom: 15px;
+  }
+  .choice{
+    padding-top: 13%;
+    background: #ffe000;
+    height: 93.6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  button{
+    font-size: 3rem;
+    border: none;
+    height: 200px;
+    width: 32%;
+    display: inline-block;
+    background-color: #ffee6c;
+    margin: 0 5px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #e7cc01;
+    color: #ffffff;
+  }
+  button.button1{
+    margin-right: 20px;
+  }
